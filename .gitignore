@@ -1,3 +1,6 @@
-loan_risk_data.csv
+Data/
+Logs/
 .venv
 .env
+__pycache__/
+*.pyc   
