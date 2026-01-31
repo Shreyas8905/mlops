@@ -1,0 +1,6 @@
+Confusion Matrix for RandomForest:
+Classes: ['High Risk', 'Low Risk', 'Medium Risk']
+
+[[21  0  0]
+ [ 0  4  1]
+ [ 0  0 74]]

@@ -97,3 +97,15 @@ wcwidth==0.2.14
 webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
+
+# ML and MLOps dependencies
+scikit-learn==1.6.1
+mlflow==2.19.0
+pandas==2.2.3
+numpy==2.2.3
+joblib==1.4.2
+streamlit==1.42.0
+
+# Testing dependencies
+pytest==8.3.4
+pytest-cov==6.0.0
