@@ -1,0 +1,33 @@
+artifact_path: /workspaces/mlops/src/mlruns/1/models/m-ffdb31d4bde842b6b73d377846aa14f9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+is_signature_from_type_hint: false
+mlflow_version: 3.8.1
+model_id: m-ffdb31d4bde842b6b73d377846aa14f9
+model_size_bytes: 629126
+model_uuid: m-ffdb31d4bde842b6b73d377846aa14f9
+prompts: null
+run_id: 7f32f67bc82d44bd844e6913962a593c
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "long", "name":
+    "Income", "required": true}, {"type": "long", "name": "EmploymentType", "required":
+    true}, {"type": "long", "name": "ResidenceType", "required": true}, {"type": "long",
+    "name": "CreditScore", "required": true}, {"type": "long", "name": "LoanAmount",
+    "required": true}, {"type": "long", "name": "LoanTerm", "required": true}, {"type":
+    "long", "name": "PreviousDefault", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-24 07:34:46.099794'
